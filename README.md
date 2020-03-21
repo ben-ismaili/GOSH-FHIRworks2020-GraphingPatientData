@@ -1,7 +1,7 @@
 # Introduction
 The API that I have developed uses two python packages (FHIR-Parser & Flask) along with the provided FHIRworks_2020 app to allow users to graph patient data. There are different types of graphs that can be generated for various different types of data. This allows users to be able to visualise the demographics of the patients they are dealing with and gain a better understanding of the variety that exists amongst the patients.
 
-*Note*: Examples from the documentation of FHIR-Parser were used as inspiration when generating graphs and so the code for generating graphs is structured in a similar manner. (https://fhir-parser.readthedocs.io/en/latest/examples.html#marital-status)
+*Note*: Examples from the documentation of FHIR-Parser were used as inspiration when generating graphs and so the code for generating graphs is structured in a similar manner. (https://fhir-parser.readthedocs.io/en/latest/examples.html#marital-status) - Courtesy of *Ethan Wood*.
 
 # Deployment Guide
 ## Setup FHIRworks_2020
