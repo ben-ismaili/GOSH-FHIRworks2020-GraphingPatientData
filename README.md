@@ -1,8 +1,6 @@
 # Introduction
 The API that I have developed uses two python packages (FHIR-Parser & Flask) along with the provided FHIRworks_2020 app to allow users to graph patient data. There are different types of graphs that can be generated for various different types of data. This allows users to be able to visualise the demographics of the patients they are dealing with and gain a better understanding of the variety that exists amongst the patients.
 
-*Note*: Examples from the documentation of FHIR-Parser were used as inspiration when generating graphs and so the code for generating graphs is structured in a similar manner. (https://fhir-parser.readthedocs.io/en/latest/examples.html#marital-status) - Courtesy of *Ethan Wood*.
-
 # Deployment Guide
 ## Setup FHIRworks_2020
 - Follow the README in the [linked GitHub repo](https://github.com/goshdrive/FHIRworks_2020) to ensure that you have installed *Visual Studio Code* and *.NET Core 2.1 SDK 2.1.803* and to ensure that you have correctly setup the *appsettings.json* file with the relevant Azure FHIR API credentials.
@@ -60,3 +58,6 @@ The API that I have developed uses two python packages (FHIR-Parser & Flask) alo
     ```bash
     curl http://127.0.0.1:3000/piechart/marital_status
     ```
+
+# Citations
+Examples from the documentation of FHIR-Parser were used as inspiration when generating graphs and so the code for generating graphs is structured in a similar manner. (https://fhir-parser.readthedocs.io/en/latest/examples.html#marital-status) - Courtesy of *Ethan Wood*.
